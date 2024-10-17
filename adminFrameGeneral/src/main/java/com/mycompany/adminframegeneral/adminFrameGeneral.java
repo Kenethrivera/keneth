@@ -27,7 +27,7 @@ public class adminFrameGeneral extends JFrame implements ActionListener {
         setLocationRelativeTo(null);
         setLayout(null);
 
-        ImageIcon bg = new ImageIcon("welcomebg.jpg");
+        ImageIcon bg = new ImageIcon("image.adminFrameGeneral/welcomebg.jpg");
         Image image = bg.getImage();
         Image image1 = image.getScaledInstance(1000, 800, Image.SCALE_SMOOTH);
         bg = new ImageIcon(image1);
